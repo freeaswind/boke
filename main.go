@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintf(w, "Hello, World!") // 返回一个简单的响应
 	})
